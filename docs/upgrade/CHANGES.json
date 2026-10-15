@@ -1,0 +1,190 @@
+{
+  "baseline": "/Users/yihao/project-backups/hoppscotch-before-upgrade-20261015-014811.tar.gz",
+  "note": "Compared with the pre-upgrade working copy, including original uncommitted work. Generated files, dependencies and upgrade documentation are excluded.",
+  "files": [
+    {
+      "path": "package.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/package.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/prisma/migrations/20260410150000_api_spec_headers_body/migration.sql",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/prisma/migrations/20261015010000_knowledge_workflows/migration.sql",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/prisma/schema.prisma",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/ai-mock.controller.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/ai-mock.module.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/dto/generate-mock.dto.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/services/ai-mock.service.spec.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/services/ai-mock.service.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/services/field-semantic-analyzer.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/services/llm.service.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/util/json-schema.inferencer.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/util/schema-validator.spec.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/ai-mock/util/schema-validator.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-index.service.spec.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-index.service.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-search.controller.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-search.module.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-search.service.spec.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/api-search.service.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/embedding.service.spec.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/embedding.service.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/team-scope.guard.spec.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/api-search/team-scope.guard.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/app.module.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/knowledge/knowledge.controller.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/knowledge/knowledge.module.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/knowledge/knowledge.service.spec.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-backend/src/knowledge/knowledge.service.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-common/locales/cn.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/locales/en.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/package.json",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/components.d.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/components/app/Sidenav.vue",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/helpers/api-search.service.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/helpers/knowledge-api.ts",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/pages/aimock.vue",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/pages/knowledge.vue",
+      "change": "added"
+    },
+    {
+      "path": "packages/hoppscotch-common/src/types/post-request.d.ts",
+      "change": "modified"
+    },
+    {
+      "path": "packages/hoppscotch-selfhost-web/.sitemap-gen/sitemap.xml",
+      "change": "modified"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "change": "modified"
+    },
+    {
+      "path": "scripts/check-knowledge-workflow.cjs",
+      "change": "added"
+    },
+    {
+      "path": "scripts/check-model-providers.cjs",
+      "change": "added"
+    },
+    {
+      "path": "scripts/dev-knowledge.cjs",
+      "change": "added"
+    },
+    {
+      "path": "scripts/verify-knowledge-db.cjs",
+      "change": "added"
+    }
+  ]
+}
